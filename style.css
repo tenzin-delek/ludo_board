@@ -1,0 +1,97 @@
+.main_box{
+    width: 800px;
+    height: 800px;
+    border: 1px solid black;
+    margin:auto;
+}
+.row1,
+.row3{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.row2{
+    width: 100%;
+    height: 200px;
+    display: flex;
+   
+}
+
+.row1_col1,
+.row1_col3,
+.row3_col1,
+.row3_col3,
+.row2_col1,
+.row2_col3{
+    width: 300px;
+    height: auto;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.row1_col2,
+.row3_col2,
+.row2_col2{
+    width: 200px;
+    height: auto;
+}
+
+
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+.white{
+    background-color: white;
+}
+.row_child{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+.child{
+    width: 160px;
+    height: 160px;
+    margin: 20px;
+}
+.child>div{
+    width: 33.3%;
+    height: 33.33%;
+    float: left;
+    border-radius: 8px;  
+}
+.row1_col2>div,
+.row3_col2>div{
+    width: 33.33%;
+    height: 50px;
+    float: left;
+    outline: 1px solid;
+}
+.cell{
+    height: 200px;
+    width: 300px;
+}
+.cell>div{
+    height: 33.33%;
+    width: 50px;
+    float: left;
+    outline: 1px solid;
+}
+.home {
+    width: 0;
+    height: 0;
+    border-left: 100px solid green;
+    border-right: 100px solid blue;
+    border-top: 100px solid red;
+    border-bottom: 100px solid yellow;
+    outline: 1px solid;
+  }
